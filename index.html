@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark light">
+<title>Daily Briefing</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230e1116'/%3E%3Cpath d='M6 22l6-7 5 4 9-11' stroke='%2345d483' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <h1 id="greeting">Loading your news…</h1>
+  <p class="dateline"><span id="today"></span> <span class="sep">·</span> <span id="updated"></span></p>
+</header>
+
+<main class="grid">
+  <section class="col" id="col-world" aria-labelledby="h-world">
+    <h2 id="h-world" class="col-title">World <small>Conflict &amp; politics</small></h2>
+    <div class="chips" id="region-filter" role="group" aria-label="Filter by region"></div>
+    <div id="world"></div>
+  </section>
+
+  <section class="col" id="col-markets" aria-labelledby="h-markets">
+    <h2 id="h-markets" class="col-title">Markets <small>Money &amp; economy</small></h2>
+    <div id="crazy"></div>
+    <div id="markets"></div>
+    <h3 class="sub">Central banks</h3>
+    <div id="central"></div>
+    <h3 class="sub">Economic news</h3>
+    <div id="economic"></div>
+  </section>
+
+  <aside class="col" id="col-side" aria-labelledby="h-side">
+    <h2 id="h-side" class="col-title">Weather <small>&amp; extras</small></h2>
+    <div id="weather"></div>
+    <div id="notd"></div>
+    <div class="card" id="calendar-note">
+      <h3 class="sub">Economic calendar</h3>
+      <p class="muted">No reliable free calendar source is wired in yet, so this is left out rather than showing guesses. Central-bank releases appear under “Central banks”.</p>
+    </div>
+  </aside>
+</main>
+
+<footer class="foot">Data: BBC, Al Jazeera, The Guardian, France 24, CNBC, ECB, Bank of England, Yahoo Finance, Frankfurter (ECB rates), CoinGecko, Open-Meteo. Refreshes hourly. Not financial advice.</footer>
+<script src="app.js"></script>
+</body>
+</html>

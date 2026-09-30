@@ -1,0 +1,45 @@
+{
+  "greeting": "Hello Mr Holst van Gogh, this is your news for today",
+  "timezone": "Europe/London",
+  "crazy_threshold_pct": 2.0,
+  "crazy_include_crypto": false,
+  "news_items_shown": 15,
+  "cities": [
+    {"name": "London", "latitude": 51.5072, "longitude": -0.1276},
+    {"name": "Lisbon", "latitude": 38.7223, "longitude": -9.1393}
+  ],
+  "world_feeds": [
+    {"name": "BBC World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
+    {"name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml"},
+    {"name": "The Guardian", "url": "https://www.theguardian.com/world/rss"},
+    {"name": "France 24", "url": "https://www.france24.com/en/rss"}
+  ],
+  "economic_feeds": [
+    {"name": "BBC Business", "url": "https://feeds.bbci.co.uk/news/business/rss.xml"},
+    {"name": "Guardian Business", "url": "https://www.theguardian.com/uk/business/rss"},
+    {"name": "CNBC World", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100727362"}
+  ],
+  "central_bank_feeds": [
+    {"name": "ECB", "url": "https://www.ecb.europa.eu/rss/press.html"},
+    {"name": "Bank of England", "url": "https://www.bankofengland.co.uk/rss/news"}
+  ],
+  "indices": [
+    {"name": "S&P 500", "symbol": "^GSPC"},
+    {"name": "NASDAQ", "symbol": "^IXIC"},
+    {"name": "FTSE 100", "symbol": "^FTSE"},
+    {"name": "DAX", "symbol": "^GDAXI"},
+    {"name": "CAC 40", "symbol": "^FCHI"},
+    {"name": "Nikkei 225", "symbol": "^N225"},
+    {"name": "PSI (Portugal)", "symbol": "PSI20.LS"}
+  ],
+  "commodities": [
+    {"name": "Brent oil", "symbol": "BZ=F", "unit": "$/bbl"},
+    {"name": "Gold", "symbol": "GC=F", "unit": "$/oz"},
+    {"name": "Natural gas", "symbol": "NG=F", "unit": "$/MMBtu"}
+  ],
+  "fx_pairs": ["GBP/USD", "EUR/USD", "GBP/EUR", "USD/JPY", "USD/CNY", "EUR/GBP"],
+  "crypto": [
+    {"name": "Bitcoin", "id": "bitcoin"},
+    {"name": "Ethereum", "id": "ethereum"}
+  ]
+}
